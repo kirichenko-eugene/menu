@@ -1,0 +1,123 @@
+.button_block {
+	margin: 0 auto;
+	max-width: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.button_block p {
+	font-size: 1.2rem;
+}
+
+.exit {
+	width: 110px;
+	height: 110px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 5px;
+	padding: 0;
+}
+
+.exit a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-family: Verdana;
+}
+
+.block_name {
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Verdana;
+}
+
+.submit_buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 50px;
+}	
+
+
+.submit_buttons .wide_button {
+	width: 300px;
+}
+
+.text_place textarea {
+	width:95%;
+	display:block;
+	max-width:95%;
+	padding:15px 15px 30px;
+	background: inherit;
+	font-size: 16px;
+	border: 2px solid #28a745;
+	border-radius: 5px;
+}
+
+.input_place {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+
+.input_place input {
+	border: 2px solid #28a745;
+	width: 50%;
+}
+
+.form_select {
+	border: 2px solid #28a745;
+	border-radius: 5px;
+	width: 50%;
+}
+
+.user_select {
+	margin-bottom: 10px;
+}
+
+.change {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.changelink {
+	background: red;
+	border-radius: 5px;
+	padding: 5px;
+	transition: all .5s ease-out;
+}
+
+.changelink:hover {
+	transition: all .5s ease-out;
+	box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+}
+
+.change a {
+	display: block;
+	text-decoration: none;
+	font-size: 1.1rem;
+	color: #fff;
+}
+
+.red_text {
+	color: red;
+}
+
+.all_button {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.hidden {
+	display: none;
+}
+
+.center_span {
+	text-align: center;
+}
